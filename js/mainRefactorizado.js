@@ -1,6 +1,7 @@
 "use strict";
 
 const selectUser = document.querySelector(".js-select");
+
 const btn = document.querySelector(".js-btn");
 const msj = document.querySelector(".js-result");
 const counterUser = document.querySelector(".js-counter-user");
@@ -95,7 +96,6 @@ const handleClickReset = (event) => {
   pcScore = 0;
   userScore = 0;
   moves = 0;
-  selectInicio = '';
   paintScore();
 
 
