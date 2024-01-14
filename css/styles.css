@@ -1,14 +1,14 @@
+* {
+    margin: 10px;
+}
+
 .main {
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-}
-
-* {
-    margin: 10px;
+    width: 80%;
 }
 
 input {
@@ -28,6 +28,7 @@ label {
 
 .title {
     padding: 15px;
+    font-size: 25px;
 }
 
 select {

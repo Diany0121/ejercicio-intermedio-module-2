@@ -22,7 +22,7 @@
       <h3>Introduce aquí tu jugada:</h3>
       <form class="form">
         <select class="border--medium js-select" name="jugada" id="jugada">
-          <option disabled selected value="select">Seleccione su jugada</option>
+          <option disabled selected value="select js-inicio">Seleccione su jugada</option>
           <option value="piedra">Piedra</option>
           <option value="papel">Papel</option>
           <option value="tijera">Tijera</option>
@@ -34,13 +34,15 @@
         <h2 class="badge js-result">Vamos a Jugar!</h2>
       </div>
 
-      <p class="input js-counter-user">Jugadora: <span>0</span></p>
+      <p class="input">Jugadora:<span class="js-counter-user">0</span></p>
 
-      <p class="t input js-counter-pc">Computadora: <span>0</span></p>
+      <p class="t input">Computadora:<span class="js-counter-pc">0</span></p>
 
       <!--Reload the game -->
-      <button class="badge reload hidden">Reiniciar Juego</button>
+      <button class="badge reload hidden js-reset">Reiniciar Juego</button>
     </main>
-    <script type="text/javascript" src="./js/main.js"></script>
+
+    <script src="./js/mainRefactorizado.js"></script>
+    <!--<script type="text/javascript" src="./js/main.js"></script>-->
   </body>
 </html>
